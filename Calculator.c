@@ -9,11 +9,11 @@ int main(){
     switch(op){
         case '+':printf("The sum will be = %d",(a+b));
                 break;
-        case '-':printf("The sum will be = %d",(a-b));
+        case '-':printf("The difference will be = %d",(a-b));
             break;
-        case '*':printf("The sum will be = %d",(a*b));
+        case '*':printf("The product will be = %d",(a*b));
                break;
-        case '/':printf("The sum will be = %d",(a/b));
+        case '/':printf("The quotient will be = %d",(a/b));
                break;
         default:printf("The required operation can't be performed");
     }
