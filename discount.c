@@ -6,13 +6,13 @@ int main(){
     scanf("%d", &cp);
     switch(cp){
         case 0...500:discount=0;
-                    printf("Discount = %d" , discount);
+                    printf("Discount = %0.2f" , discount);
                     break;
         case 501...800:discount=discount=(20.0/100.0)*cp;
-                    printf("Discount = %d" , discount);
+                    printf("Discount = %0.2f" , discount);
                     break;
         default:discount=(25.0/100)*cp;
-                printf("Discount = %d" , discount);
+                printf("Discount = %0.2f" , discount);
                 break;
     }
 }
